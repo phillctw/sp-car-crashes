@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SP Car Crashes</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: #fff5eb;
+            text-rendering: optimizeLegibility;
+        }
+
+        .content {
+            max-width: 640px;
+            margin: auto;
+        }
+
+        .header {
+            padding: 3em 0;
+        }
+
+        a {
+            color: #f05349;
+        }
+
+        .footer {
+            background: #f4f4f4;
+            text-align: center;
+            font-size: 0.8em;
+            margin-top: 4em;
+            padding: 4em 0;
+        }
+
+        figure {
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        figcaption {
+            font-size: 0.8em;
+            text-align: center;
+            margin-top: 0.5em;
+            color: #666;
+        }
+
+        h1 {
+            font-family: 'Lora', Georgia, serif;
+            font-weight: bold;
+            font-size: 3em;
+            line-height: 1.1;
+        }
+
+        .subhead {
+            font-family: 'Lora', Georgia, serif;
+        }
+
+        .full-width figure {
+            text-align: center;
+        }
+
+        iframe,
+        img,
+        video {
+            max-width: 100%;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        ul {
+            margin: 0;
+            padding-bottom: 1em;
+            line-height: 1.6;
+        }
+
+        iframe {
+            padding-bottom: 1.2em;
+        }
+
+        code {
+            font-family: 'Courier New', monospace;
+            background: #ffc480;
+        }
+
+        /* margin on mobile */
+        @media (max-width: 640px) {
+            body {
+                font-size: 18px;
+            }
+
+            .content {
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+            }
+        }
+    </style>
+    <style>
+        .with-image-bg,
+        .with-video-bg {
+            position: relative;
+            background-size: cover;
+            margin-bottom: 2em;
+
+            /* Center everything inside */
+            min-height: 70svh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            /* White text with a shadow */
+            color: white;
+            text-shadow: 0px 0px 30px black,
+                0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .video-background {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .video-background video {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header with-video-bg">
+        <div class="video-background">
+            <video src="crashculture.mp4" preload="auto" tabindex="0" playsinline autoplay loop muted></video>
+        </div>
+        <div class="content">
+            <h1>A clear blue sky isn't always good news for drivers in São Paulo State, Brazil</h1>
+            <p class="subhead">If you think the danger on highways lies in bad weather, you might want to think again</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="byline">
+            <p>By <strong>Phillippe Watanabe</strong></p>
+        </div>
+        <p>If the sky is blue and the weather is calm, be aware, a reckless driver may be ahead.</p>
+        <p>On the highways of São Paulo, Brazil's most populous state, the weather apparently isn't to blame for car accidents. 
+            Data from DER/SP (São Paulo Roads Department) for 2025 so far shows that most of car crashes happen during normal 
+            weather conditions, when the drivers have good visibility.</p>
+        <p>So who is to blame?</p>
+        <p>Well, you might guess it: humans —or, more specifically, human recklessness.</p>
+
+        <iframe title="Reckleness drives accidents in São Paulo state, Brazil" aria-label="Bar Chart" id="datawrapper-chart-MLQxw"
+            src="https://datawrapper.dwcdn.net/d6Btu/1/" scrolling="no" frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none;" height="757" data-external="1"></iframe>
+        <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) { var e = document.querySelectorAll("iframe"); for (var t in a.data["datawrapper-height"]) for (var r = 0; r < e.length; r++)if (e[r].contentWindow === a.source) { var i = a.data["datawrapper-height"][t] + "px"; e[r].style.height = i } } })) }();
+        </script>
+
+        <p>Although there are many cases marked as "No information" or "Not informed", the data clearly shows that drivers' actions are 
+            the main cause of most accidents on São Paulo's roads.</p>
+        <p>The data also doesn't show any major differences in the types of accidents that occur when visibility is poor. The majority of 
+            accidents are rear-end collisions, which also account for the largest share of deaths on São Paulo's roads this year.</p>    
+        <p>There is, however, a slight shift when it rains: in these conditions, crashes involving vehicles hitting guardrails top the list of 
+            accident types.</p>
+        <p>Of course accidents don't happen in a vacuum. It's reasonable to assume that, in general, areas with more vehicles and higher 
+            road activity are more likely to see accidents occur.</p>
+
+        <iframe title="Reckleness drives accidents in São Paulo state, Brazil" aria-label="Bar Chart" id="datawrapper-chart-MLQxw"
+            src="https://datawrapper.dwcdn.net/DkyNF/2/" scrolling="no" frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none;" height="757" data-external="1"></iframe>
+        <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) { var e = document.querySelectorAll("iframe"); for (var t in a.data["datawrapper-height"]) for (var r = 0; r < e.length; r++)if (e[r].contentWindow === a.source) { var i = a.data["datawrapper-height"][t] + "px"; e[r].style.height = i } } })) }();
+        </script>
+
+        <p>The concentration of accidents in some parts of São Paulo State also doesn't tell the whole story. After all, we care about accidents
+             because they can cost people their lives. Brazil has some astonishing numbers when it comes to traffic-related deaths. 
+             In 2022 alone, 34,000 people died in traffic accidents in Brazil —a figure that has been growing in recent years. That year, 
+             about 16 out of every 100,000 Brazilians died in road accidents —a rate far above that of neighboring countries and 
+             most European nations.  
+        </p>
+        <p>But because Brazil is so big, there is no uniformity in traffic-related deaths. São Paulo, for example, is not among the states 
+            with the highest road fatality rates. Even so, the numbers for 2025 already look alarming: by May 26th, 472 people had lost 
+            their lives in traffic accidents in the state.
+        </p>
+
+        <iframe title="Once Brazil's Automobile Capital, it now has the highest share of fatal car accident victims in São Paulo State" aria-label="Map" id="datawrapper-chart-dyAjA" 
+        src="https://datawrapper.dwcdn.net/dyAjA/1/" scrolling="no" frameborder="0" 
+        style="width: 0; min-width: 100% !important; border: none;" height="594" data-external="1"></iframe>
+        <script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
+        </script>
+        
+        <h2>Time to rest (but without taking your eyes off the road)</h2>
+
+        <p>So far this year on São Paulo's roads, anyone planning to hit the road on a Friday to relax somewhere else for the weekend should 
+            double their attention. Fridays see the highest number of accidents and traffic-related deaths. Weekend days also tend to have more
+             severe accidents, accounting for a disproportionately high number of deaths compared to total crashes.
+        </p>
+
+        <iframe title="The end of the week and weekends are the most lethal on São Paulo State’s roads in 2025" aria-label="Bar Chart" id="datawrapper-chart-tufK0" 
+        src="https://datawrapper.dwcdn.net/tufK0/2/" scrolling="no" frameborder="0" 
+        style="width: 0; min-width: 100% !important; border: none;" height="316" data-external="1"></iframe>
+        <script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
+        </script>
+
+        <p>It's hard to find a silver lining when dealing with something as alarming as the number of accidents in Brazil and in São Paulo State. 
+            Maybe the only encouraging sign in the data is that far more people walk away unharmed (22,372) than lose their lives in 
+            highway crashes (472). But even so, that's no reason to be satisfied.
+        </p>
+
+    </div>
+    <div class="footer">
+        <div class="content">
+         
+
+</body>
+
+</html>
